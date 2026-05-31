@@ -9,8 +9,9 @@
 # Richiede due Secrets nel repo (Settings → Secrets → Actions):
 #   CLOUDFLARE_API_TOKEN   (token con permesso "Cloudflare Pages: Edit")
 #   CLOUDFLARE_ACCOUNT_ID
-# e che tu abbia creato un progetto Pages con questo nome:
-#   PROJECT_NAME (sotto) ← cambialo col nome reale del tuo progetto Pages.
+# Puoi anche impostare la Repository Variable:
+#   CLOUDFLARE_PAGES_PROJECT_NAME
+# Se non la imposti, il workflow usa come default: colore-e-verde.
 
 name: Deploy
 
@@ -39,4 +40,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy dist --project-name=colore-e-verde
+          command: pages deploy dist --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME || 'colore-e-verde' }}
