@@ -27,7 +27,7 @@ const site = {
     name: "Colore & Verde",
     // Nome/ragione del titolare per documenti e schema (facoltativo ma utile)
     legalName: "[DA COMPILARE — es. Marco Baldi]",
-    tagline: "Imbianchino e cura del verde a Pistoia",
+    tagline: "Imbianchino, tinteggiatore e giardiniere a Pistoia",
     foundedYear: 2005,
 
     // Contatti
@@ -78,10 +78,10 @@ const site = {
       name: "Imbiancatura e Tinteggiatura",
       short: "Pareti e soffitti perfetti, dentro e fuori casa.",
       // <title> e meta description della pagina
-      title: "Imbiancatura e Tinteggiatura a Pistoia | Colore & Verde",
+      title: "Imbianchino Pistoia — Imbiancatura e Tinteggiatura | Colore & Verde",
       metaDescription:
-        "Imbiancatura e tinteggiatura di interni ed esterni a Pistoia e provincia. Lavoro pulito, preventivo gratuito entro 48h. Chiama +39 338 453 1102.",
-      h1: "Imbiancatura e tinteggiatura",
+        "Cerchi un imbianchino a Pistoia? Tinteggiatura interni ed esterni, pittura pareti, stuccatura e rasatura. Preventivo gratuito entro 48h, lavoro pulito garantito. Chiama +39 338 453 1102.",
+      h1: "Imbianchino a Pistoia: tinteggiatura e imbiancatura",
       intro:
         "Tinteggiamo interni ed esterni con cura del dettaglio e protezione totale di pavimenti e mobili. Dalla singola stanza alla casa intera, ti diciamo prima quanto costa e quanto ci mettiamo.",
       bullets: [
@@ -96,10 +96,10 @@ const site = {
       slug: "verniciatura",
       name: "Verniciatura Legno e Ferro",
       short: "Infissi, persiane, cancelli e ringhiere come nuovi.",
-      title: "Verniciatura Legno e Ferro a Pistoia | Colore & Verde",
+      title: "Verniciatore Pistoia — Verniciatura Legno e Ferro | Colore & Verde",
       metaDescription:
-        "Verniciatura e trattamento di legno e ferro a Pistoia: persiane, portoni, cancelli, ringhiere. Prodotti professionali, preventivo gratuito entro 48h.",
-      h1: "Verniciatura di legno e ferro",
+        "Verniciatura professionale di legno e ferro a Pistoia: persiane, infissi, cancelli e ringhiere. Trattamento antiruggine e restauro. Preventivo gratuito entro 48h. Chiama subito.",
+      h1: "Verniciatore a Pistoia: verniciatura legno e ferro",
       intro:
         "Trattiamo e verniciamo legno e ferro per proteggerli dal tempo e restituire l'aspetto originale. Carteggiatura, fondo, protezione antiruggine o impregnante e finitura, fatti come si deve.",
       bullets: [
@@ -114,10 +114,10 @@ const site = {
       slug: "cura-del-verde",
       name: "Cura del Verde e Giardinaggio",
       short: "Giardini ordinati tutto l'anno, senza pensieri.",
-      title: "Giardiniere a Pistoia — Cura del Verde | Colore & Verde",
+      title: "Giardiniere Pistoia — Cura del Verde e Manutenzione | Colore & Verde",
       metaDescription:
-        "Giardiniere a Pistoia e provincia: sfalcio prati, potatura siepi e piante, pulizia aree verdi. Interventi singoli o manutenzione periodica. Preventivo gratuito.",
-      h1: "Cura del verde e giardinaggio",
+        "Cerchi un giardiniere a Pistoia? Sfalcio prati, potatura siepi e piante, manutenzione aree verdi per privati e aziende. Preventivo gratuito, interventi singoli o programmati. Chiama ora.",
+      h1: "Giardiniere a Pistoia: cura del verde e giardinaggio",
       intro:
         "Manteniamo il tuo verde in ordine durante tutto l'anno: dal taglio dell'erba alla potatura, fino alla pulizia stagionale. Interventi una tantum o contratti di manutenzione periodica.",
       bullets: [
@@ -174,6 +174,62 @@ const site = {
     { title: "Cantiere pulito", text: "Proteggiamo mobili e pavimenti e lasciamo tutto in ordine." },
     { title: "Un solo referente", text: "Imbiancatura, verniciatura e verde gestiti dalla stessa squadra." },
   ],
+
+  /* -----------------------------------------------------------------------
+     7) DOMANDE FREQUENTI — generate per la SEO (FAQPage schema su Google)
+  ----------------------------------------------------------------------- */
+  faqs: [
+    {
+      q: "Quanto costa imbiancare una stanza a Pistoia?",
+      a: "Il costo dipende dalla metratura, dallo stato delle pareti e dal tipo di pittura scelta. Facciamo un sopralluogo gratuito e ti diamo un preventivo scritto senza impegno entro 48 ore. In media, per una stanza di 20 mq si va dai 200€ ai 400€ tutto incluso."
+    },
+    {
+      q: "Fate anche piccoli lavori di tinteggiatura o solo lavori grandi?",
+      a: "Facciamo lavori di ogni dimensione: dalla singola stanza all'intero appartamento, dalla tinteggiatura di un bagno alla facciata di un condominio. Nessun lavoro è troppo piccolo."
+    },
+    {
+      q: "Quanto costa la potatura di una siepe o lo sfalcio del prato?",
+      a: "Per la cura del verde offriamo sia interventi una tantum (a partire da 50€ per uno sfalcio) sia contratti di manutenzione periodica. Il prezzo esatto lo stabiliamo dopo un sopralluogo in base alla superficie e al tipo di vegetazione."
+    },
+    {
+      q: "Fate anche servizio di giardinaggio per aziende e condomini?",
+      a: "Sì, offriamo manutenzione programmata per condomini, aziende e strutture ricettive. Stabiliamo un calendario di interventi (sfalcio, potatura, pulizia) e ci occupiamo di tutto."
+    },
+    {
+      q: "In quali zone della provincia di Pistoia lavorate?",
+      a: "Operiamo a Pistoia, Montecatini Terme, Monsummano Terme, Pescia, Montale, Quarrata e in tutta la Valdinievole. Se sei in un comune limitrofo, contattaci: valutiamo senza impegno."
+    },
+    {
+      q: "Offrite garanzia sui lavori di imbiancatura?",
+      a: "Sì, garantiamo i nostri lavori di tinteggiatura. Usiamo pitture di qualità (lavabili, traspiranti, antimuffa) e se qualcosa non ti soddisfa, interveniamo senza costi aggiuntivi."
+    },
+    {
+      q: "Come funziona il sopralluogo e il preventivo?",
+      a: "Ci chiami o ci scrivi su WhatsApp, fissiamo un appuntamento per il sopralluogo (gratuito e senza impegno), e entro 48 ore ti inviamo un preventivo dettagliato con costi, materiali e tempi di esecuzione."
+    },
+    {
+      q: "Fate anche lavori urgenti?",
+      a: "Sì, per lavori che richiedono un intervento rapido facciamo il possibile per venire incontro alle tue esigenze. Contattaci per verificare la disponibilità."
+    },
+  ],
+
+  /* -----------------------------------------------------------------------
+     8) MESSAGGI WHATSAPP — diversi template per diversi CTA
+  ----------------------------------------------------------------------- */
+  whatsappMessages: {
+    // Preventivo generico (usato in home, footer, contatti)
+    preventivoGenerico: "Ciao! Ho visto il vostro sito Colore & Verde. Vorrei un preventivo gratuito per un lavoro di: ",
+    // Preventivo specifico per servizio (usato nelle pagine servizio)
+    preventivoServizio: "Ciao, mi servirebbe un preventivo per {SERVIZIO}. ",
+    // Preventivo per zona (usato nelle pagine zona)
+    preventivoZona: "Ciao, abito a {ZONA} e vorrei un preventivo gratuito per: ",
+    // Messaggio dal form contatti (usato in main.js)
+    formMessaggio: "Ciao! Vorrei un preventivo gratuito per un lavoro.\n\n👤 {NOME}\n📞 {RECAPITO}\n🛠 {SERVIZIO}\n📍 {ZONA}\n📝 {DETTAGLI}",
+    // Preventivo urgente
+    preventivoUrgente: "Ciao, avrei urgenza di un preventivo per un lavoro di {SERVIZIO} a {ZONA}. Potete richiamarmi?",
+    // Info generica
+    infoGenerica: "Ciao! Vorrei maggiori informazioni sui vostri servizi di {SERVIZIO}.",
+  },
 };
 
 module.exports = site;
