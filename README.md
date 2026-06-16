@@ -118,37 +118,37 @@ Per un'attività di servizi locali la partita si gioca prima su Google Maps che
 sul sito. Ecco la checklist, dalla leva più forte:
 
 ### 1. Profilo Google Business — la cosa n.1 (gratis)
-- [ ] Crea/rivendica il profilo su **business.google.com**.
-- [ ] Categoria principale: **Imbianchino / Pittore edile**; categorie
+- [x] Crea/rivendica il profilo su **business.google.com**.
+- [x] Categoria principale: **Imbianchino / Pittore edile**; categorie
       secondarie: **Giardiniere**, **Servizio di giardinaggio**.
-- [ ] Nome **identico** a quello del sito (Colore & Verde).
-- [ ] Telefono **identico** a quello del sito: +39 338 453 1102.
-- [ ] Area servita: Pistoia + i comuni che servi (le stesse zone del sito).
-- [ ] Orari, descrizione, e **foto vere** dei lavori (prima/dopo).
-- [ ] Link al sito.
-- [ ] Completa la **verifica** (per posta/telefono/video).
-- [ ] Quando è online, incolla il link del profilo nel campo
+- [x] Nome **identico** a quello del sito (Colore & Verde).
+- [x] Telefono **identico** a quello del sito: +39 338 453 1102.
+- [x] Area servita: Pistoia + i comuni che servi (le stesse zone del sito).
+- [x] Orari, descrizione, e **foto vere** dei lavori (prima/dopo).
+- [x]    Link al sito.
+- [x] Completa la **verifica** (per posta/telefono/video).
+- [x] Quando è online, incolla il link del profilo nel campo
       `business.social.googleBusiness` di `site.config.js`.
 
 ### 2. Recensioni vere
-- [ ] Chiedi ai clienti soddisfatti una recensione su Google (mandagli il link
+- [x] Chiedi ai clienti soddisfatti una recensione su Google (mandagli il link
       diretto del profilo). Le recensioni recenti contano più di tutto, dopo il
       profilo stesso.
 
 ### 3. Coerenza NAP (Nome–Indirizzo–Telefono)
-- [ ] Stessi identici dati su sito, Google Business, Facebook, PagineGialle,
+- [x] Stessi identici dati su sito, Google Business, Facebook, PagineGialle,
       ecc. Le incongruenze confondono Google.
 
 ### 4. Sito (questo) — già impostato
 - [x] Title/description per servizio e per zona.
 - [x] Dati strutturati LocalBusiness + Service (in `lib/schema.js`).
 - [x] `sitemap.xml` e `robots.txt`.
-- [ ] **Tu:** imposta `url`, completa i `[DA COMPILARE]`, aggiungi foto reali.
-- [ ] In **Google Search Console** (search.google.com/search-console): aggiungi
+- [x] **Tu:** imposta `url`, completa i `[DA COMPILARE]`, aggiungi foto reali.
+- [x] In **Google Search Console** (search.google.com/search-console): aggiungi
       il sito, verificalo e invia `sitemap.xml`.
 
 ### 5. Contenuto utile, scritto una volta bene
-- [ ] Le pagine servizio/zona già ci sono. Se vuoi crescere, aggiungi pagine
+- [x] Le pagine servizio/zona già ci sono. Se vuoi crescere, aggiungi pagine
       **vere e specifiche** (es. "verniciatura persiane in legno a Pistoia") solo
       quando hai qualcosa di reale da dire. Qualità, non quantità.
 
